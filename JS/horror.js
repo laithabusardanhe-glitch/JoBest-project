@@ -22,3 +22,9 @@ searchInput.addEventListener("keyup", function () {
         noResults.style.display = "none";
     }
 });
+document.querySelectorAll(".horror-card").forEach(card => {
+  card.addEventListener("click", () => {
+    const title = card.getAttribute("data-title") || card.querySelector("h3").textContent.trim();
+    window.location.href = `movie.html?title=${encodeURIComponent(title)}`;
+  });
+});

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main{
+    min-height: 100vh;
+    background-image: url("gray.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.left-side {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+}
+
+.left-side img {
+  margin-bottom: 10px; 
+}
+
+.movie-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  animation: fadeIn 0.8s ease-in-out;
+  display: flex;            
+  align-items: flex-start;    
+  gap: 20px;                 
+}
+.movie-container img {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  flex-shrink: 0; 
+  transition: 0.3s ease-in-out;
+}
+.movie-details {
+  flex: 1; 
+}
+
+.movie-container h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.movie-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.watch-btn {
+  background-color: #ff3d00;
+  color: white;
+}
+
+.watch-btn:hover {
+  background-color: #ff5722;
+  transform: scale(1.05);
+}
+
+.save-btn {
+  background-color: #00c853;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #00e676;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+  .movie-container {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+  .movie-container img {
+    margin-bottom: 20px;
+  }
+}
