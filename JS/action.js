@@ -25,7 +25,8 @@ searchInput.addEventListener("keyup", function () {
 document.querySelectorAll(".action-card").forEach(card => {
   card.addEventListener("click", () => {
     const title = card.getAttribute("data-title") || card.querySelector("h3").textContent.trim();
-    window.location.href = `movie.html?title=${encodeURIComponent(title)}`;
+    const genre = "Action"; 
+    window.location.href = `movie.html?title=${encodeURIComponent(title)}&genre=${encodeURIComponent(genre)}`;
   });
 });
 
