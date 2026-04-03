@@ -30,15 +30,25 @@ function renderFavorites(list) {
   list.forEach((movie, index) => {
     const card = document.createElement("div");
     card.classList.add("favorites-card");
-    card.innerHTML = `
+   /* card.innerHTML = `
       <div class="img-wrapper">
         <a href="movie.html?title=${encodeURIComponent(movie.title)}&from=favorites" class="movie-link">
           <img src="${movie.img}" alt="${movie.title}">
           <h3 class="h">${movie.title}</h3>
         </a>
-        <button class="delete-btn" onclick="removeFavorite(${index})">❌</button>
+        <button type="button" class="delete-btn" onclick="removeFavorite(${index})">❌</button>
       </div>
-    `;
+    `;*/
+    card.innerHTML = `
+  <div class="img-wrapper position-relative">
+    <a href="movie.html?title=${encodeURIComponent(movie.title)}&from=favorites" class="movie-link">
+      <img src="${movie.img}" alt="${movie.title}">
+      <h3 class="h">${movie.title}</h3>
+    </a>
+    <button type="button" class="btn btn-outline-danger btn-sm delete-btn" onclick="removeFavorite(${index})">❌</button>
+  </div>
+`;
+
     container.appendChild(card);
   });
 }
@@ -53,7 +63,7 @@ document.querySelector(".save-btn").addEventListener("click", () => {
   const title = document.getElementById("movieTitle").textContent;
   const desc = document.getElementById("movieDesc").textContent;
   const img = document.getElementById("movieImg").src;
-  const genre = params.get("genre"); // خزن النوع كمان
+  const genre = params.get("genre"); 
 
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
