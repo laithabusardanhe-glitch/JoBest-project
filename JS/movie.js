@@ -7,6 +7,7 @@ const movieData = {
   desc: "A tense survival story where Australian soldiers face not only the perils of World War II but also the unforgiving power of nature. Stranded at sea, exhaustion and enemy threats pale compared to the relentless pursuit of a great white shark, turning survival into a battle between man and predator.",
   genre: "Action",
   rating: 5.4,
+  duration: "1h 37m",
   trailer: "https://www.youtube.com/watch?v=QkzQvZpZp7g"
 },
 "Valiant On": {
@@ -14,6 +15,7 @@ const movieData = {
   desc: "A gripping tale of courage under extreme circumstances. After a U.S. military helicopter crashes deep in North Korean territory, the surviving crew must rely on teamwork, trust, and difficult choices as every step toward freedom becomes a test of endurance and bravery.",
   genre: "Action",
   rating: 5.5,
+  duration: "1h 45m",
   trailer: "https://www.youtube.com/watch?v=Q2z7hVvYcY8"
 },
 "Thunderbolts": {
@@ -21,6 +23,7 @@ const movieData = {
   desc: "From the Marvel universe, an unconventional team of former villains and mercenaries is assembled for a covert mission. The film blends explosive action with psychological conflict, exploring loyalty, betrayal, and whether redemption is truly possible.",
   genre: "Action",
   rating: 7.1,
+  duration: "2h 05m",
   trailer: "https://www.youtube.com/watch?v=JdZp9z7l2yM"
 },
 "Play Dirty": {
@@ -28,6 +31,7 @@ const movieData = {
   desc: "A gritty crime thriller where betrayal lurks around every corner. Each character hides secrets, alliances crumble, and survival demands ruthless cunning. The film highlights the dark side of ambition and power in a world where trust is a luxury.",
   genre: "Action",
   rating: 5.9,
+  duration: "1h 50m",
   trailer: "https://www.youtube.com/watch?v=JjQ0zQvZp7g"
 },
 "John Wick": {
@@ -35,6 +39,7 @@ const movieData = {
   desc: "An iconic revenge saga sparked by personal loss. Legendary hitman John Wick is forced back into the underworld after gangsters destroy what he loves most. Stylish action sequences and meticulously choreographed combat make this film a modern classic.",
   genre: "Action",
   rating: 7.4,
+  duration: "1h 41m",
   trailer: "https://www.youtube.com/watch?v=2AUmvWm5ZDQ"
 },
 "Inception": {
@@ -42,6 +47,7 @@ const movieData = {
   desc: "A mind-bending fusion of action and science fiction. Dom Cobb and his team infiltrate dreams to plant an idea in someone’s subconscious. The film explores the boundaries of reality, love, and loss, with stunning visuals that blur the line between imagination and truth.",
   genre: "Action",
   rating: 8.8,
+  duration: "2h 28m",
   trailer: "https://www.youtube.com/watch?v=YoHD9XEInc0"
 },
 "Avatar": {
@@ -49,6 +55,7 @@ const movieData = {
   desc: "A breathtaking journey to Pandora, where Marine Jake Sully inhabits an avatar body to live among the Na’vi people. The film combines thrilling action with themes of belonging, harmony with nature, and the clash between humanity and the environment.",
   genre: "Action",
   rating: 7.9,
+  duration: "2h 42m",
   trailer: "https://www.youtube.com/watch?v=5PSNL1qE6VY"
 },
 "Top Gun": {
@@ -56,6 +63,7 @@ const movieData = {
   desc: "A classic story of ambition and rivalry. Maverick, a hotshot pilot, pushes the limits at the elite Top Gun flight school. The film blends high-octane aerial combat with human drama and romance, cementing its place as an action staple.",
   genre: "Action",
   rating: 6.9,
+  duration: "1h 50m",
   trailer: "https://www.youtube.com/watch?v=qAfbp3YX9F0"
 },
 "Fast & Furious 9": {
@@ -63,6 +71,7 @@ const movieData = {
   desc: "The adrenaline-fueled saga continues as Dom Toretto faces his estranged brother Jakob. Packed with over-the-top stunts and explosive action, the film explores themes of family, loyalty, and redemption amidst chaos.",
   genre: "Action",
   rating: 5.2,
+  duration: "2h 23m",
   trailer: "https://www.youtube.com/watch?v=FUK2kdPsBws"
 },
 "The Dark Knight": {
@@ -70,6 +79,7 @@ const movieData = {
   desc: "A cinematic masterpiece where Batman confronts the unpredictable Joker. The film raises profound questions about justice and chaos, delivering intense action and psychological depth that redefine the superhero genre.",
   genre: "Action",
   rating: 9.0,
+  duration: "2h 32m",
   trailer: "https://www.youtube.com/watch?v=EXeTwQWrcwY"
 },
 "Avengers: Infinity War": {
@@ -77,6 +87,7 @@ const movieData = {
   desc: "An epic Marvel showdown as heroes unite against Thanos, who seeks the six Infinity Stones to reshape the universe. The film balances massive action with emotional stakes, ending in a shocking climax that left audiences stunned.",
   genre: "Action",
   rating: 8.4,
+  duration: "2h 29m",
   trailer: "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
 },
 "Spider-Man: No Way Home": {
@@ -84,6 +95,7 @@ const movieData = {
   desc: "Peter Parker’s life spirals into chaos after his identity is revealed. The film delivers thrilling action and heartfelt drama, with multiverse surprises that bring together heroes and villains from across Spider-Man’s cinematic history.",
   genre: "Action",
   rating: 8.2,
+  duration: "2h 28m",
   trailer: "https://www.youtube.com/watch?v=JfVOs4VSpmA"
 },
 "Mad Max: Fury Road": {
@@ -91,6 +103,7 @@ const movieData = {
   desc: "A relentless chase across a scorched wasteland. Furiosa rebels against tyrant Immortan Joe, sparking a revolution filled with explosive action and stunning visuals. The film symbolizes freedom and defiance in a brutal world.",
   genre: "Action",
   rating: 8.1,
+  duration: "2h 00m",
   trailer: "https://www.youtube.com/watch?v=hEJnMQG9ev8"
 },
 "Avengers: Endgame": {
@@ -98,6 +111,7 @@ const movieData = {
   desc: "The grand finale of the Marvel saga. After devastating losses, the Avengers devise a daring plan involving time travel to undo Thanos’s destruction. The film blends action, emotion, and heartfelt farewells to beloved characters, making it a historic cinematic event.",
   genre: "Action",
   rating: 8.4,
+  duration: "3h 01m",
   trailer: "https://www.youtube.com/watch?v=TcMBFSGVi1c"
 },
 "Extraction": {
@@ -105,6 +119,7 @@ const movieData = {
   desc: "Haunted mercenary Tyler Rake embarks on a dangerous mission to rescue a kidnapped boy. The film delivers intense combat sequences while exploring the bond that forms between the hardened soldier and the child amidst relentless danger.",
   genre: "Action",
   rating: 6.8,
+  duration: "1h 57m",
   trailer: "https://www.youtube.com/watch?v=L6P3nI6VnlY"
 },
 "The Matrix": {
@@ -112,6 +127,7 @@ const movieData = {
   desc: "A groundbreaking sci-fi action film where computer hacker Neo discovers that the world around him is a simulated reality controlled by machines. Guided by Morpheus and Trinity, he must embrace his destiny as 'The One' to free humanity. The film blends philosophy, cyberpunk aesthetics, and revolutionary action sequences, redefining the genre and raising profound questions about reality and freedom.",
   genre: "Action",
   rating: 8.7,
+  duration: "2h 16m",
   trailer: "https://www.youtube.com/watch?v=vKQi3bBA1y8"
 },
 "Dunki": {
@@ -119,6 +135,7 @@ const movieData = {
   desc: "A heartfelt Bollywood drama directed by Rajkumar Hirani, starring Shah Rukh Khan. The film explores themes of friendship, migration, and the pursuit of dreams, blending humor, emotion, and social commentary in Hirani’s signature style.",
   genre: "Entertainment",
   rating: 6.5,
+  duration: "2h 30m",
   trailer: "https://www.youtube.com/watch?v=8FkLRUJjGjc"
 },
 "Hoppers": {
@@ -126,6 +143,7 @@ const movieData = {
   desc: "A dramatic tale of resilience and community, focusing on individuals who overcome adversity by relying on solidarity and hope. The film highlights the strength of human connection in the face of hardship.",
   genre: "Entertainment",
   rating: 7.5,
+  duration: "1h 55m",
   trailer: "https://www.youtube.com/watch?v=example"
 },
 "Ninja Turtles": {
@@ -133,6 +151,7 @@ const movieData = {
   desc: "The Teenage Mutant Ninja Turtles rise from the sewers to protect New York City. Combining martial arts, humor, and brotherhood, the film showcases their battle against villains while embracing themes of teamwork and identity.",
   genre: "Entertainment",
   rating: 6.8,
+  duration: "1h 41m",
   trailer: "https://www.youtube.com/watch?v=fmzWlPZf5dQ"
 },
 "Jumanji": {
@@ -140,6 +159,7 @@ const movieData = {
   desc: "A magical board game unleashes jungle dangers into the real world. The film blends fantasy adventure with humor and suspense, as players must finish the game to restore order.",
   genre: "Entertainment",
   rating: 7.1,
+  duration: "1h 44m",
   trailer: "https://www.youtube.com/watch?v=2U76x2fD_tE"
 },
 "Pirates of the Caribbean": {
@@ -147,6 +167,7 @@ const movieData = {
   desc: "Captain Jack Sparrow sails through treacherous seas filled with curses, rival pirates, and supernatural forces. The film combines swashbuckling adventure, witty humor, and unforgettable characters in a thrilling journey.",
   genre: "Entertainment",
   rating: 8.1,
+  duration: "2h 23m",
   trailer: "https://www.youtube.com/watch?v=naQr0uTrH_s"
 },
 "Harry Potter": {
@@ -154,6 +175,7 @@ const movieData = {
   desc: "The iconic saga of a young wizard at Hogwarts. Harry Potter discovers his magical heritage, faces dark forces, and learns about friendship, courage, and destiny across a legendary fantasy series.",
   genre: "Entertainment",
   rating: 8.1,
+  duration: "2h 32m",
   trailer: "https://www.youtube.com/watch?v=VyHV0BRtdxo"
 },
 "The Jungle Book": {
@@ -161,6 +183,7 @@ const movieData = {
   desc: "Raised by wolves, Mowgli embarks on a journey of self-discovery in the jungle. Guided by Baloo and Bagheera, he faces Shere Khan while learning about belonging and survival.",
   genre: "Entertainment",
   rating: 7.3,
+  duration: "1h 48m",
   trailer: "https://www.youtube.com/watch?v=5mkm22yO-bs"
 },
 "Avatar": {
@@ -168,6 +191,7 @@ const movieData = {
   desc: "On Pandora, Marine Jake Sully inhabits an avatar body to live among the Na’vi people. The film blends breathtaking visuals, thrilling action, and themes of environmentalism and cultural respect.",
   genre: "Entertainment",
   rating: 7.9,
+  duration: "2h 42m",
   trailer: "https://www.youtube.com/watch?v=5PSNL1qE6VY"
 },
 "Shrek": {
@@ -175,6 +199,7 @@ const movieData = {
   desc: "An ogre named Shrek embarks on a quest to rescue Princess Fiona. Filled with humor, satire, and heart, the film redefines fairy tales with its unique blend of comedy and adventure.",
   genre: "Entertainment",
   rating: 7.9,
+  duration: "1h 30m",
   trailer: "https://www.youtube.com/watch?v=CwXOrW2OelA"
 },
 "Shrek 2": {
@@ -182,6 +207,7 @@ const movieData = {
   desc: "Shrek and Fiona visit her royal parents, leading to comedic chaos and unexpected challenges. The film expands the fairy tale world with new characters, witty humor, and heartfelt themes of acceptance.",
   genre: "Entertainment",
   rating: 7.4,
+  duration: "1h 33m",
   trailer: "https://www.youtube.com/watch?v=xBgSfhp5Fxo"
 },
 "Coco": {
@@ -189,6 +215,7 @@ const movieData = {
   desc: "Young Miguel journeys to the Land of the Dead to uncover his family’s legacy. The film celebrates music, memory, and cultural heritage, delivering a touching story about love and remembrance.",
   genre: "Entertainment",
   rating: 8.4,
+  duration: "1h 45m",
   trailer: "https://www.youtube.com/watch?v=Ga6RYejo6Hk"
 },
 "Finding Nemo": {
@@ -196,6 +223,7 @@ const movieData = {
   desc: "After his son Nemo is captured, Marlin embarks on an ocean-spanning quest with Dory. The film blends humor, adventure, and heartfelt emotion, highlighting themes of family and perseverance.",
   genre: "Entertainment",
   rating: 8.2,
+  duration: "1h 40m",
   trailer: "https://www.youtube.com/watch?v=wZdpNglLbt8"
 },
 "Toy Story": {
@@ -203,6 +231,7 @@ const movieData = {
   desc: "Woody, Buzz Lightyear, and a group of toys come to life when humans aren’t around. The film explores friendship, loyalty, and imagination, becoming a groundbreaking animated classic.",
   genre: "Entertainment",
   rating: 8.3,
+  duration: "1h 21m",
   trailer: "https://www.youtube.com/watch?v=KYz2wyBy3kc"
 },
 "The Tony Alva Story": {
@@ -210,6 +239,7 @@ const movieData = {
   desc: "A documentary about Tony Alva, one of skateboarding’s pioneers. The film traces his influence on the sport, his rebellious spirit, and the cultural revolution he helped ignite.",
   genre: "Entertainment",
   rating: null,
+  duration: "1h 30m",
   trailer: "https://www.youtube.com/watch?v=example"
 },
 "Finding Dory": {
@@ -217,6 +247,7 @@ const movieData = {
   desc: "Dory, the forgetful fish, sets out to find her long-lost family. With humor and heart, the film explores themes of memory, belonging, and the importance of never giving up.",
   genre: "Entertainment",
   rating: 7.2,
+  duration: "1h 37m",
   trailer: "https://www.youtube.com/watch?v=3JNLwlcPBPI"
 },
 "Tangled": {
@@ -224,6 +255,7 @@ const movieData = {
   desc: "Rapunzel, a princess with magical long hair, escapes her tower with the help of Flynn Rider. The film blends adventure, romance, and comedy, celebrating freedom and self-discovery.",
   genre: "Entertainment",
   rating: 7.7,
+  duration: "1h 40m",
   trailer: "https://www.youtube.com/watch?v=JYKJrcQm7mw"
 },
 "Hereditary": {
@@ -231,6 +263,7 @@ const movieData = {
   desc: "A chilling psychological horror where a grieving family unravels terrifying secrets after the death of their grandmother. As sinister forces close in, the film explores themes of trauma, fate, and the inescapable darkness within family bonds.",
   genre: "Horror",
   rating: 7.3,
+  duration: "2h 07m",
   trailer: "https://www.youtube.com/watch?v=V6wWKNij_1M"
 },
 "Clown In A Cornfield": {
@@ -238,6 +271,7 @@ const movieData = {
   desc: "Teenagers in a small town are hunted by a killer clown lurking in the cornfields. The film mixes slasher thrills with social commentary, turning a rural setting into a nightmare of survival and fear.",
   genre: "Horror",
   rating: 6.0,
+  duration: "1h 38m",
   trailer: "https://www.youtube.com/watch?v=example"
 },
 "The Nun": {
@@ -245,6 +279,7 @@ const movieData = {
   desc: "Set in the Conjuring universe, a priest and a novice investigate a haunted abbey in Romania. They uncover the demonic entity Valak, leading to terrifying encounters in a gothic atmosphere filled with dread.",
   genre: "Horror",
   rating: 5.3,
+  duration: "1h 36m",
   trailer: "https://www.youtube.com/watch?v=pzD9zGcUNrw"
 },
 "Chucky": {
@@ -252,6 +287,7 @@ const movieData = {
   desc: "The infamous killer doll returns, possessed by the spirit of a murderer. Combining dark humor with brutal horror, Chucky wreaks havoc while exploring themes of possession, fear, and twisted innocence.",
   genre: "Horror",
   rating: 6.6,
+  duration: "1h 27m",
   trailer: "https://www.youtube.com/watch?v=9tZfXz2U2pA"
 },
 "The Conjuring": {
@@ -259,6 +295,7 @@ const movieData = {
   desc: "Paranormal investigators Ed and Lorraine Warren help a family plagued by a dark presence in their farmhouse. The film blends supernatural terror with emotional stakes, becoming a modern classic in horror cinema.",
   genre: "Horror",
   rating: 7.5,
+  duration: "1h 52m",
   trailer: "https://www.youtube.com/watch?v=k10ETZ41q5o"
 },
 "Annabelle": {
@@ -266,6 +303,7 @@ const movieData = {
   desc: "The cursed doll Annabelle becomes a conduit for evil, unleashing chaos and terror on those who encounter it. The film explores demonic possession and the dangers of objects tied to dark forces.",
   genre: "Horror",
   rating: 5.4,
+  duration: "1h 39m",
   trailer: "https://www.youtube.com/watch?v=jbSkIvOQy9c"
 },
 "It": {
@@ -273,6 +311,7 @@ const movieData = {
   desc: "In the town of Derry, children are hunted by Pennywise the Dancing Clown, a shape-shifting entity feeding on fear. The film combines supernatural horror with themes of friendship and courage against evil.",
   genre: "Horror",
   rating: 7.3,
+  duration: "2h 15m",
   trailer: "https://www.youtube.com/watch?v=xKJmEC5ieOk"
 },
 "A Quiet Place": {
@@ -280,6 +319,7 @@ const movieData = {
   desc: "In a post-apocalyptic world, a family must live in silence to avoid deadly creatures that hunt by sound. The film delivers suspenseful tension while exploring themes of family, sacrifice, and resilience.",
   genre: "Horror",
   rating: 7.6,
+  duration: "1h 30m",
   trailer: "https://www.youtube.com/watch?v=WR7cc5t7tv8"
 },
 "The Nun 2": {
@@ -287,6 +327,7 @@ const movieData = {
   desc: "The demonic nun Valak returns, spreading terror across Europe. The sequel intensifies the gothic horror atmosphere, with chilling visuals and escalating supernatural threats.",
   genre: "Horror",
   rating: 5.6,
+  duration: "1h 50m",
   trailer: "https://www.youtube.com/watch?v=QF-oyCwaArU"
 },
 "Us": {
@@ -294,6 +335,7 @@ const movieData = {
   desc: "A family’s vacation turns nightmarish when they are confronted by their sinister doppelgängers. Jordan Peele’s horror explores identity, duality, and societal fears through unsettling imagery and psychological terror.",
   genre: "Horror",
   rating: 6.8,
+  duration: "2h 01m",
   trailer: "https://www.youtube.com/watch?v=hNCmb-4oXJA"
 },
 "Weapons": {
@@ -301,6 +343,7 @@ const movieData = {
   desc: "A disturbing horror-thriller weaving together multiple stories of violence, paranoia, and human cruelty. The film explores how fear and brutality manifest in different forms, creating an atmosphere of dread.",
   genre: "Horror",
   rating: 6.2,
+  duration: "1h 42m",
   trailer: "https://www.youtube.com/watch?v=example"
 },
 "The Ritual": {
@@ -308,6 +351,7 @@ const movieData = {
   desc: "Four friends hiking in the Scandinavian wilderness encounter an ancient evil tied to Norse mythology. The film blends psychological tension with supernatural horror, highlighting guilt, grief, and survival.",
   genre: "Horror",
   rating: 6.3,
+  duration: "1h 34m",
   trailer: "https://www.youtube.com/watch?v=Vfugwq2uoa0"
 },
 "The Invitation": {
@@ -315,6 +359,7 @@ const movieData = {
   desc: "A woman attends a dinner party that spirals into a sinister cult-like gathering. The film builds slow-burning tension, exploring paranoia, manipulation, and the horrors hidden beneath social facades.",
   genre: "Horror",
   rating: 6.0,
+  duration: "1h 40m",
   trailer: "https://www.youtube.com/watch?v=5bL1ftuxgOE"
 },
 "Get Out": {
@@ -322,6 +367,7 @@ const movieData = {
   desc: "A young Black man visits his white girlfriend’s family estate, uncovering disturbing secrets beneath their hospitality. Jordan Peele’s acclaimed horror blends social commentary with psychological terror, exposing hidden racism and exploitation.",
   genre: "Horror",
   rating: 7.7,
+  duration: "1h 44m",
   trailer: "https://www.youtube.com/watch?v=sRfnevzM9kQ"
 },
 "Talk to Me": {
@@ -329,6 +375,7 @@ const movieData = {
   desc: "Teenagers discover a way to communicate with spirits using a cursed hand. The film delivers intense scares while exploring grief, temptation, and the dangerous allure of the supernatural.",
   genre: "Horror",
   rating: 7.1,
+  duration: "1h 35m",
   trailer: "https://www.youtube.com/watch?v=aLAKJu9aJys"
 },
 "Sinister": {
@@ -336,6 +383,7 @@ const movieData = {
   desc: "A true-crime writer finds disturbing home videos depicting murders, leading him into a deadly connection with a demonic entity. The film blends investigative mystery with supernatural horror, creating an atmosphere of dread and inevitability.",
   genre: "Horror",
   rating: 6.8,
+  duration: "1h 50m",
   trailer: "https://www.youtube.com/watch?v=_kbQAJR9YWQ"
 },
 "Superbad": {
@@ -343,6 +391,7 @@ const movieData = {
   desc: "Two awkward high school friends set out to enjoy one last wild night before graduation. Filled with outrageous humor, teenage misadventures, and heartfelt moments, the film captures the chaos and excitement of growing up.",
   genre: "Comedy",
   rating: 7.6,
+  duration: "1h 53m",
   trailer: "https://www.youtube.com/watch?v=4eaZ_48ZYog"
 },
 "Grown Ups": {
@@ -350,6 +399,7 @@ const movieData = {
   desc: "Childhood friends reunite as adults after the death of their basketball coach. The film blends slapstick humor with themes of friendship, family, and nostalgia, showing how growing older doesn’t mean growing up.",
   genre: "Comedy",
   rating: 6.9,
+  duration: "1h 42m",
   trailer: "https://www.youtube.com/watch?v=e01NVCveGkg"
 },
 "The Family Plan": {
@@ -357,6 +407,7 @@ const movieData = {
   desc: "A suburban dad hides a secret past as a former assassin. When his old life resurfaces, he must protect his family while juggling everyday suburban chaos, blending action with comedic family dynamics.",
   genre: "Comedy",
   rating: 6.0,
+  duration: "1h 50m",
   trailer: "https://www.youtube.com/watch?v=example"
 },
 "The Man from Toronto": {
@@ -364,6 +415,7 @@ const movieData = {
   desc: "A case of mistaken identity forces a bumbling man to team up with a deadly assassin. The film mixes action and comedy, delivering laughs through mismatched personalities and chaotic situations.",
   genre: "Comedy",
   rating: 5.8,
+  duration: "1h 52m",
   trailer: "https://www.youtube.com/watch?v=urqy8DrcGBs"
 },
 "The Mask": {
@@ -371,6 +423,7 @@ const movieData = {
   desc: "A timid bank clerk discovers a magical mask that transforms him into a zany, unstoppable trickster. The film combines slapstick comedy, romance, and fantasy with Jim Carrey’s iconic performance.",
   genre: "Comedy",
   rating: 6.9,
+  duration: "1h 41m",
   trailer: "https://www.youtube.com/watch?v=hz1lFJJJpYA"
 },
 "Mr. Bean's Holiday": {
@@ -378,6 +431,7 @@ const movieData = {
   desc: "Mr. Bean wins a trip to France, but his journey spirals into comedic disasters. With physical humor and silent antics, the film showcases Bean’s misadventures in a charming, family-friendly style.",
   genre: "Comedy",
   rating: 6.4,
+  duration: "1h 30m",
   trailer: "https://www.youtube.com/watch?v=ljEMhFv7dXk"
 },
 "Home Alone": {
@@ -385,6 +439,7 @@ const movieData = {
   desc: "Young Kevin McCallister is left behind when his family goes on vacation. He hilariously defends his home against burglars with clever traps, blending slapstick comedy with heartwarming family themes.",
   genre: "Comedy",
   rating: 7.7,
+  duration: "1h 43m",
   trailer: "https://www.youtube.com/watch?v=jEDaVHmw7r4"
 },
 "Home Alone 2": {
@@ -392,6 +447,7 @@ const movieData = {
   desc: "Kevin finds himself lost in New York City, facing the same burglars again. The film delivers comedic chaos with inventive traps, city adventures, and holiday spirit.",
   genre: "Comedy",
   rating: 6.8,
+  duration: "2h 01m",
   trailer: "https://www.youtube.com/watch?v=5xH0HfJHsaY"
 },
 "Rush Hour": {
@@ -399,6 +455,7 @@ const movieData = {
   desc: "A mismatched duo — Jackie Chan’s disciplined cop and Chris Tucker’s loud detective — team up to solve a kidnapping. The film blends martial arts action with sharp comedic banter.",
   genre: "Comedy",
   rating: 7.0,
+  duration: "1h 38m",
   trailer: "https://www.youtube.com/watch?v=JMiFsFQcFLE"
 },
 "The Hangover": {
@@ -406,6 +463,7 @@ const movieData = {
   desc: "Three friends wake up in Las Vegas with no memory of the previous night. As they retrace their steps, the film delivers outrageous comedy, shocking twists, and unforgettable misadventures.",
   genre: "Comedy",
   rating: 7.7,
+  duration: "1h 40m",
   trailer: "https://www.youtube.com/watch?v=tcdUhdOlz9M"
 },
 "Jump Street 21": {
@@ -413,6 +471,7 @@ const movieData = {
   desc: "Two underachieving cops go undercover in a high school to bust a drug ring. The film mixes action with sharp comedy, poking fun at teen culture and buddy-cop clichés.",
   genre: "Comedy",
   rating: 7.2,
+  duration: "1h 49m",
   trailer: "https://www.youtube.com/watch?v=RLoKtb4c4W0"
 },
 "Free Guy": {
@@ -420,6 +479,7 @@ const movieData = {
   desc: "A video game NPC discovers he’s living in a simulation. With humor, action, and heart, the film explores free will, identity, and love inside a colorful digital world.",
   genre: "Comedy",
   rating: 7.1,
+  duration: "1h 55m",
   trailer: "https://www.youtube.com/watch?v=X2m-08cOAbc"
 },
 "Let's Be Cops": {
@@ -427,6 +487,7 @@ const movieData = {
   desc: "Two friends dress up as cops for fun, only to get caught in real criminal chaos. The film delivers buddy comedy with absurd situations and hilarious misunderstandings.",
   genre: "Comedy",
   rating: 6.4,
+  duration: "1h 44m",
   trailer: "https://www.youtube.com/watch?v=5s4nQ_M0E4c"
 },
 "Red One": {
@@ -434,6 +495,7 @@ const movieData = {
   desc: "A holiday-themed action-comedy where Santa Claus teams up with unlikely allies to save Christmas. The film blends festive cheer with explosive action and lighthearted humor.",
   genre: "Comedy",
   rating: 6.7,
+  duration: "2h 02m",
   trailer: "https://www.youtube.com/watch?v=example"
 },
 "Zombieland": {
@@ -441,6 +503,7 @@ const movieData = {
   desc: "In a zombie apocalypse, a group of quirky survivors navigates chaos with humor and inventive rules for survival. The film mixes horror with comedy, delivering laughs and thrills in equal measure.",
   genre: "Comedy",
   rating: 7.6,
+  duration: "1h 28m",
   trailer: "https://www.youtube.com/watch?v=8m9EVP8X7N8"
 },
 "Central Intelligence": {
@@ -448,6 +511,7 @@ const movieData = {
   desc: "A mild-mannered accountant reunites with a former classmate turned CIA agent. The film blends action and comedy, highlighting friendship, trust, and the hilarity of mismatched partners in dangerous missions.",
   genre: "Comedy",
   rating: 6.3,
+  duration: "1h 47m",
   trailer: "https://www.youtube.com/watch?v=MxEw3elSJ8M"
 }
 };
@@ -506,6 +570,14 @@ document.querySelector(".watch-btn").addEventListener("click", () => {
     alert("Trailer not available 🎥");
   }
 });
+document.querySelector(".download-btn").addEventListener("click", () => {
+  const imgUrl = document.getElementById("movieImg").src;
+  const link = document.createElement("a");
+  link.href = imgUrl;
+  link.download = "movie-poster.jpg"; 
+  link.click();
+});
+
 const from = params.get("from");
 
 if (from === "favorites") {
@@ -541,3 +613,4 @@ function renderStars(rating) {
     starsContainer.appendChild(star);
   }
 }
+document.getElementById("movieDuration").textContent = `Movie Duration : ${movie.duration}`;

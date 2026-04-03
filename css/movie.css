@@ -96,10 +96,24 @@ button {
   color: white;
   border-radius: 20px;
 }
-
 .save-btn:hover {
   background-color: #00e676;
   transform: scale(1.05);
+}
+.download-btn {
+  background-color: #2196f3;
+  color: white;
+  border-radius: 20px;
+}
+
+.download-btn:hover {
+  background-color: #42a5f5;
+  transform: scale(1.05);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 #related {
   padding: 60px 10%;
